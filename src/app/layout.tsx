@@ -3,6 +3,7 @@ import { Noto_Sans_KR } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
+import ApiDebugLogger from '@/components/api-debug-logger'
 
 const notoSans = Noto_Sans_KR({
   subsets: ['latin'],
@@ -19,6 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ko" suppressHydrationWarning>
       <body className={`${notoSans.variable} min-h-screen bg-background text-foreground`}>
+        <ApiDebugLogger />
         <Header />
         <main className="container mx-auto px-4 py-10 space-y-12">{children}</main>
         <Footer />
