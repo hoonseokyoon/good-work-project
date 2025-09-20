@@ -21,7 +21,7 @@ export default function SearchFilters() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const [search, setSearch] = useState(searchParams.get('q') ?? '')
-  const selectedOrder = searchParams.get('order') ?? ''
+  const selectedOrder = searchParams.get('order') ?? 'default'
   const activeTags = searchParams.getAll('tag')
 
   const applyFilters = (newParams: URLSearchParams) => {
@@ -41,7 +41,7 @@ export default function SearchFilters() {
 
   const handleOrderChange = (value: string) => {
     const params = new URLSearchParams(Array.from(searchParams.entries()))
-    if (value) {
+    if (value && value !== 'default') {
       params.set('order', value)
     } else {
       params.delete('order')
@@ -79,7 +79,7 @@ export default function SearchFilters() {
             <SelectValue placeholder="정렬 기준" />
           </SelectTrigger>
           <SelectContent>
-            <SelectItem value="">기본</SelectItem>
+            <SelectItem value="default">기본</SelectItem>
             {orders.map((item) => (
               <SelectItem key={item.value} value={item.value}>
                 {item.label}
