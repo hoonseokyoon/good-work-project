@@ -28,9 +28,9 @@ export default function ContributionCard({ item }: Props) {
       {item.actionUrl ? (
         <CardFooter>
           <Button asChild size="sm" variant="secondary">
-            <Link href={item.actionUrl} target="_blank" rel="noreferrer noopener">
+            <a href={item.actionUrl} target="_blank" rel="noreferrer noopener">
               {item.actionLabel ?? '자세히 보기'}
-            </Link>
+            </a>
           </Button>
         </CardFooter>
       ) : null}

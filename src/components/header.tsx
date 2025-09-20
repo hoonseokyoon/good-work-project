@@ -8,9 +8,9 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
 import { Separator } from '@/components/ui/separator'
 
 const nav = [
-  { href: '/map', label: '찾기' },
-  { href: '/news', label: '뉴스' },
-  { href: '/contribute', label: '기여' }
+  { href: '/map' as const, label: '찾기' },
+  { href: '/news' as const, label: '뉴스' },
+  { href: '/contribute' as const, label: '기여' }
 ]
 
 export default function Header() {
