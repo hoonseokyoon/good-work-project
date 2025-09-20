@@ -102,14 +102,14 @@ export default async function ContributePage() {
   if (process.env.SUPABASE_URL && process.env.SUPABASE_ANON_KEY) {
     const client = sb()
     const [instRes, productRes, eventRes] = await Promise.all([
-      client.from('institutions').select<Institution>('id, name, slug, donation').limit(50),
-      client.from('products').select<Product>('id, name, category, unit, price, image_url, buy_url').limit(24),
-      client.from('events').select<Event>('id, title, start_at, signup_url').order('start_at').limit(24)
+      client.from('institutions').select('id, name, slug, donation').limit(50),
+      client.from('products').select('id, name, category, unit, price, image_url, buy_url').limit(24),
+      client.from('events').select('id, title, start_at, signup_url').order('start_at').limit(24)
     ])
 
-    if (instRes.data?.length) institutions = instRes.data
-    if (productRes.data?.length) products = productRes.data
-    if (eventRes.data?.length) events = eventRes.data
+    if (instRes.data?.length) institutions = instRes.data as Institution[]
+    if (productRes.data?.length) products = productRes.data as Product[]
+    if (eventRes.data?.length) events = eventRes.data as Event[]
   }
 
   return (
