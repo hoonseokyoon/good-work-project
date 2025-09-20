@@ -99,7 +99,7 @@ async function fetchInstitution(slug: string) {
   const client = sb()
   const { data: institution } = await client
     .from('institutions')
-    .select<Institution>('id, name, slug, description, type, lat, lng, address, phone, email, website_url, donation')
+    .select('id, name, slug, description, type, lat, lng, address, phone, email, website_url, donation')
     .eq('slug', slug)
     .maybeSingle()
 
@@ -110,12 +110,12 @@ async function fetchInstitution(slug: string) {
   const [{ data: productsData = [] }, { data: eventsData = [] }] = await Promise.all([
     client
       .from('products')
-      .select<Product>('id, name, category, unit, price, image_url, buy_url')
+      .select('id, name, category, unit, price, image_url, buy_url')
       .eq('institution_id', institution.id)
       .limit(12),
     client
       .from('events')
-      .select<Event>('id, title, start_at, signup_url')
+      .select('id, title, start_at, signup_url')
       .eq('institution_id', institution.id)
       .order('start_at')
   ])

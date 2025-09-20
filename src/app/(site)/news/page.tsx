@@ -46,12 +46,12 @@ export default async function NewsPage() {
   if (process.env.SUPABASE_URL && process.env.SUPABASE_ANON_KEY) {
     const { data } = await sb()
       .from('news')
-      .select<NewsItem>('id, title, image_url, published_at, source_name, source_url, tags')
+      .select('id, title, image_url, published_at, source_name, source_url, tags')
       .order('published_at', { ascending: false })
       .limit(24)
 
     if (data?.length) {
-      newsItems = data
+      newsItems = data as NewsItem[]
     }
   }
 
