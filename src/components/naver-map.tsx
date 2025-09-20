@@ -21,6 +21,12 @@ export default function NaverMap({ center, markers }: Props) {
   const router = useRouter()
 
   useEffect(() => {
+    // 환경변수 체크
+    if (!process.env.NEXT_PUBLIC_NAVER_MAP_CLIENT_ID) {
+      console.warn('⚠️ NEXT_PUBLIC_NAVER_MAP_CLIENT_ID 환경변수가 설정되지 않았습니다.')
+      return
+    }
+
     const src = `https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=${process.env.NEXT_PUBLIC_NAVER_MAP_CLIENT_ID}`
     const existing = document.querySelector(`script[src*="maps.js"]`) as HTMLScriptElement | null
 
