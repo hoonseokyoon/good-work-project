@@ -1,0 +1,910 @@
+[
+  {
+    "name": "가르멜 수도회 (관구 본부와 영성문화센터)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002248&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "가르멜 수도회 (광주 학생 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000026&code=201002249&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "가르멜 수도회 (미국 남가주 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201002250&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "가르멜 수도회 (마산 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000024&code=201002252&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "가르멜 수도회 (인천 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000017&code=201002254&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "가르멜 수도회 (성주 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000021&code=201007089&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "가르멜 수도회 (대만 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201008145&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "과달루페 외방 선교회 (한국 지부)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002256&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "과달루페 외방 선교회 (서울 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002257&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "그리스도 수도회 (서울 본원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002259&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "그리스도 수도회 (파주 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000020&code=201002260&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "그리스도 수도회 (필리핀 아마데오 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201006751&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "그리스도 수도회 (멕시코 과달라하라 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201008148&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "그리스도 수도회 (파주 한우리 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000020&code=201008513&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "그리스도 수도회 (필리핀 젠트리 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201007535&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "그리스도의 레지오 수도회 (한국 분원 본부)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002263&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "글라렛 선교 수도회(티 없으신 성모 성심의 아들들의 선교 수도회) (한국 독립 대리 관구)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002265&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "글라렛 선교 수도회(티 없으신 성모 성심의 아들들의 선교 수도회) (선교 연구소-글라렛 미션 센터)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002266&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "글라렛 선교 수도회(티 없으신 성모 성심의 아들들의 선교 수도회) (남평 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000026&code=201002267&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "글라렛 선교 수도회(티 없으신 성모 성심의 아들들의 선교 수도회) (부천 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000017&code=201002268&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "글라렛 선교 수도회(티 없으신 성모 성심의 아들들의 선교 수도회) (낙산 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000013&code=201002269&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "글라렛 선교 수도회(티 없으신 성모 성심의 아들들의 선교 수도회) (성북동 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201008165&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "꼰벤뚜알 프란치스코 수도회 (미국 토렌스 성 막시밀리아노 마리아 콜베 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201007940&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "꼰벤뚜알 프란치스코 수도회 (서울 성 보나벤투라 수도원/신학원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201008990&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "꼰벤뚜알 프란치스코 수도회 (관구 본부 / 서울 성 프란치스코 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002271&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "꼰벤뚜알 프란치스코 수도회 (대구 원죄 없으신 성모 수도원 / 수련소)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000021&code=201002272&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "꼰벤뚜알 프란치스코 수도회 (부산 성 안토니오 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000022&code=201002273&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "꼰벤뚜알 프란치스코 수도회 (부산 일광 예수 마리아 성심 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000022&code=201002274&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "꼰벤뚜알 프란치스코 수도회 (양평 성 정하상 바오로 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000018&code=201002275&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "꼰벤뚜알 프란치스코 수도회 (인천 성 클라라 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000017&code=201002276&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "꼰벤뚜알 프란치스코 수도회 (강화 성 유대철 베드로 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000017&code=201002277&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "꼰벤뚜알 프란치스코 수도회 (통진 성 김대건 안드레아 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000017&code=201006948&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "꼰솔라따 선교 수도회 (아시아 지구)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002279&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "꼰솔라따 선교 수도회 (동두천 분원 / 이주민 사목)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000020&code=201002281&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "꼰솔라따 선교 수도회 (위로의 샘터 / 종교 간 대화)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000016&code=201002282&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "도미니코 수도회 (설교자들의 수도회) (서울 성 도미니코 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002284&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "도미니코 수도회 (설교자들의 수도회) (안산 로사리오 성모 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000018&code=201002285&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "마리스타 교육 수사회 (지청원소 / 안산 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000018&code=201002289&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "마리스타 교육 수사회 (제천 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000019&code=201002290&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "마리스타 교육 수사회 (충주 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000023&code=201002291&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "마리스타 교육 수사회 (섹터 본부)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201006835&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "마리스타 교육 수사회 (서울 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201006836&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "마리스타 교육 수사회(피정의집 작은샘터)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000013&code=201008799&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "마리아 수도회(마리아니스트) (본원 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000020&code=201008530&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "마리아 수도회(마리아니스트) (한국 지구)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002295&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "마리아 수도회(마리아니스트) (목포 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000026&code=201002296&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "마리아 수도회(마리아니스트) (샤미나드 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000017&code=201002297&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "마리아의 아들 수도회 (한국 본원(수원 공동체))",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002293&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "마리아의 아들 수도회 (용인 공동체(하늘의 별))",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000018&code=201008071&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "마리아의 아들 수도회 (철원 공동체(몬띠 노인요양원))",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000013&code=201008072&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "말씀의 선교 수도회 (안산 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000018&code=201008511&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "말씀의 선교 수도회 (내촌 성 아놀드 얀센 영성센터)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000013&code=201008512&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "말씀의 선교 수도회 (남양 매바위 피정의 집)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000018&code=201009030&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "말씀의 선교 수도회 (한국 지부)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002300&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "말씀의 선교 수도회 (서울 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002301&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "말씀의 선교 수도회 (광주 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000026&code=201002303&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "메리놀 외방 전교회 (한국 지부)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002306&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "미리내 천주 성삼 성직 수도회 (본원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002308&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "미리내 천주 성삼 성직 수도회 (강화 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000017&code=201002309&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "미리내 천주 성삼 성직 수도회 (범물동 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000021&code=201002311&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "미리내 천주 성삼 성직 수도회 (이천 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000018&code=201002313&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "미리내 천주 성삼 성직 수도회 (말레이시아 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201008572&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "미리내 천주 성삼 성직 수도회 (진안 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000027&code=201009041&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "미리내 천주 성삼 성직 수도회 (관항리 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000018&code=201008734&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "미리내 천주 성삼 성직 수도회 (서울 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201008735&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "미리내 천주 성삼 성직 수도회 (인도네시아 마우메레 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201008736&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "미리내 천주 성삼 성직 수도회 (이스라엘-팔레스타인 성지 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201008737&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "사랑의 선교 수사회 (서울 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201007994&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "사랑의 선교 수사회 (동아시아한국관구 카비테 본원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002317&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "사랑의 선교 수사회 (부산 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000022&code=201002318&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "살레시오회 (한국 관구)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002321&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "살레시오회 (관구관 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002322&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "살레시오회 (대림동 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002323&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "살레시오회 (돈보스코 청소년 센터 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002324&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "살레시오회 (신월동 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002325&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "살레시오회 (구로3동 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002326&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "살레시오회 (제주 금악리 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000028&code=201002328&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "살레시오회 (부산 송도 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000022&code=201002329&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "살레시오회 (대전 정림동 공동체 / 수련소)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000016&code=201002331&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "살레시오회 (태안 내리 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000016&code=201002332&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "살레시오회 (광주 일곡동 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000026&code=201007027&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "살레시오회 (광주 신안동 공동체 / 신학원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000026&code=201007272&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "살레시오회 (소양로 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000013&code=201008914&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "살레시오회 (화성 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000018&code=201009034&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "살레시오회 (대전 정림동 살레시오 청소년 교육 사목 센터)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000016&code=201009035&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "삼위일체 수도회",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002334&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 골롬반 외방 선교회 (필리핀 지부)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201002335&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 골롬반 외방 선교회 (한국 지부)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002336&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 골롬반 외방 선교회 (오세아니아 지부(피지))",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201002337&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 골롬반 외방 선교회 (성 골롬반 신학원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002339&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 골롬반 외방 선교회 (광주)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000026&code=201002340&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 골롬반 외방 선교회 (제주)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000028&code=201002341&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 골롬반 외방 선교회 (대만 지부)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201006918&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 골롬반 외방 선교회 (남미 지부(칠레))",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201006919&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 골롬반 외방 선교회 (미얀마 선교 지역)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201007736&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 바오로 수도회 (서울 송중동 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201007733&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 바오로 수도회 (대구 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000021&code=201008340&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 바오로 수도회 (한국 준관구)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201006783&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 바오로 수도회 (논현동 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002347&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 바오로 수도회 (제주 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000028&code=201002348&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 바오로 수도회 (부산 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000022&code=201002349&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 바오로 수도회 (수원 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000018&code=201002350&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 베네딕도회 왜관 수도원 (한국 본원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002352&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 베네딕도회 왜관 수도원 (부산 명상의 집)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000022&code=201002354&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 베네딕도회 왜관 수도원 (서울 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002355&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 베네딕도회 왜관 수도원 (화순 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000026&code=201002357&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 베네딕도회 왜관 수도원 (금남 분원(분도 노인 마을))",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000021&code=201003150&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 베네딕도회 왜관 수도원 (뉴튼 성 바오로 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201008339&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 베네딕도회 요셉 수도원 (본원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002356&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 아우구스띠노 수도회 (한국 지부)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002359&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 아우구스띠노 수도회 (돌렌띠노의 성 니꼴라오 수도원 / 양성소)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000017&code=201002360&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 아우구스띠노 수도회 (착한 의견의 성모 수도원 / 수련소 / 의정부 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000020&code=201002361&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성 황석두 루카 외방 선교 형제회",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002363&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "성모 승천 수도회 (한국 본원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002346&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "양주 올리베따노 성 베네딕도 수도원",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201008355&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수 그리스도 고난 수도회 (한국 순교자 관구청)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002365&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수 그리스도 고난 수도회 (돈암 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002366&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수 그리스도 고난 수도회 (광주 수도원 / 명상의 집)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000026&code=201002367&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수 그리스도 고난 수도회 (양양 수도원 / 오상 영성원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000013&code=201002369&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수 그리스도 고난 수도회 (우이 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201004131&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수 성심 전교 수도회 (한국 관구 본원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002373&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수 성심 전교 수도회 (강화 공동체 / 강화 신학원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000017&code=201002375&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수 성심의 로가찌오니스티 수도회 (서울 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002371&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수 성심의 로가찌오니스티 수도회 (광주 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201008764&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수의 꽃동네 형제회 (서울 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201008532&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수의 꽃동네 형제회 (맹동 성당 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000023&code=201008303&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수의 꽃동네 형제회 (본원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000023&code=201002380&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수의 꽃동네 형제회 (꽃동네 대학교 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000023&code=201002382&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수의 꽃동네 형제회 (가평 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000013&code=201002383&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수의 작은 형제회 (한국 관구)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002385&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수의 작은 형제회 (수원 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000018&code=201002386&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수회 (한국 관구)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002388&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수회 (수련원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000018&code=201002389&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수회 (새얼 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002393&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수회 (서강대학교 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002394&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수회 (성 알로이시오의 집 / 신학원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002395&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수회 (성 이냐시오의 집)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002396&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수회 (성 요한 베르크만스의 집)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002397&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수회 (아루페 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002399&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수회 (한몸 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002401&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수회 (하비에르 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201004132&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수회 (성 알베르토 우르타도 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201008146&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수회 (바우네 집)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000017&code=201008036&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "예수회 (디딤돌 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000028&code=201007834&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "오블라띠 선교 수도회 (본원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002403&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "오블라띠 선교 수도회 (분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002404&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "올리베따노 성 베네딕도 수도회",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002408&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 예수 수도회 (본원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002410&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 예수 수도회 (거제 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000024&code=201002411&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제 관상 선교회",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002415&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제 관상 선교회 (진주 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000024&code=201002416&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제회(프란치스코회) (한국 관구)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002418&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제회(프란치스코회) (서울 정동 성 프란치스코 수도원 / 본원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002419&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제회(프란치스코회) (서울 성북동 평화의 모후 수도원 / 양성소 / 신학원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002420&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제회(프란치스코회) (대전 목동 천사들의 모후 수도원 / 수련소 / 본당)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000016&code=201002422&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제회(프란치스코회) (부산 봉래동 천사들의 성 마리아 수도원/본당)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000022&code=201002423&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제회(프란치스코회) (산청 예수 성심 수도원 / 한센인 시설 / 중증 장애인 시설 / 피정 센터)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000024&code=201002424&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제회(프란치스코회) (서울 신사동 루피노 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002425&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제회(프란치스코회) (서울 제기동 성 프란치스코 수도원 / 빈민 식당)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002426&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제회(프란치스코회) (악양 라 베르나 수도원 / 은둔소)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000024&code=201002427&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제회(프란치스코회) (수원 세류동 성 프란치스코 수도원/본당)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000018&code=201002428&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제회(프란치스코회) (인천 석남동 성 프란치스코 수도원/본당)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000017&code=201002429&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제회(프란치스코회) (장성 성 프란치스코 수도원 / 노인 요양원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000026&code=201002430&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제회(프란치스코회) (진주 칠암동 성 프란치스코 수도원 / 본당)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000024&code=201002431&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제회(프란치스코회) (천안 복자 에지디오 수도원 / 피정센터)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000016&code=201002433&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제회(프란치스코회) (홍천 성 프란치스코 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000013&code=201002436&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제회(프란치스코회) (서울 평창동 성 안토니오 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201004134&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제회(프란치스코회) (강릉 성 파스칼 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000013&code=201007067&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제회(프란치스코회) (서울 오류동 공동체 / 서울 신사동 수도원 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201008144&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제회(프란치스코회) (서울 수유리 공동체 / 성북동 수도원 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201007998&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제회(프란치스코회) (순회 공동체 / 장성 수도원 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000026&code=201007413&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제회(프란치스코회) 숨 영성 센터",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000017&code=201008864&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "작은 형제회(프란치스코회) 파주 공동체",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000020&code=201008685&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "지극히 거룩한 구속주회 (광주 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000026&code=201007450&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "지극히 거룩한 구속주회 (한국 지구)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002438&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "지극히 거룩한 구속주회 (홍천 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000013&code=201002439&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "천주교 사도직회(팔로티회) (하느님의 자비 경당 / 피정집)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000013&code=201002441&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "천주교 사도직회(팔로티회) (자비로우신 예수님의 오아시스)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002442&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "천주교 서울 국제 선교회",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002444&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "천주의 성 요한 의료봉사 수도회 (한국 대건관구)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002448&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "천주의 성 요한 의료봉사 수도회 (서울 평화의 모후 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002449&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "천주의 성 요한 의료봉사 수도회 (담양 대건공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000026&code=201002450&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "천주의 성 요한 의료봉사 수도회 (광주 본원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000026&code=201007442&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "카르투시오 수도회 성모의 카르투시오 수도원",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000025&code=201002454&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "카푸친 작은 형제회 (한국 보호구 / 천사들의 성 마리아 형제회)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002456&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "카푸친 작은 형제회 (브린디시의 성 라우렌시오 형제회)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000017&code=201002457&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "카푸친 작은 형제회 (칸탈리체의 성 펠릭스 형제회 / 수련소)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000013&code=201002458&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "카푸친 작은 형제회 (사간동 형제회)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201008487&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "파리외방전교회",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002460&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "프라도 사제회",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002462&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "프란치스코 전교봉사 수도회 (본원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002464&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "프란치스코 전교봉사 수도회 (충남 금산 수련소)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000016&code=201002465&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "프란치스코 전교봉사 수도회 (대전 월평동 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000016&code=201002467&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "프란치스코 전교봉사 수도회 (잠비아 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201007087&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "필리핀 외방 선교회",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002469&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "필리핀 외방 선교회 (인천 분원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000017&code=201002470&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 남자 수도회 사도 생활단 장상 협의회",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201002246&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 순교 복자 성직 수도회 (성 페드로 깔룽소드 양성소(필리핀))",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201007459&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 순교 복자 성직 수도회 (동티모르 순교 복자 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201007999&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 순교 복자 성직 수도회 (성 시메온 프랑수아 베르뇌 장경일 수도원(프랑스))",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201008000&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 순교 복자 성직 수도회 (최양업 토마스 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000016&code=201008389&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 순교 복자 성직 수도회 (페루 점성의 순교자 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201008918&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 순교 복자 성직 수도회 (본원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002472&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 순교 복자 성직 수도회 (수련소)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000018&code=201002473&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 순교 복자 성직 수도회 (순교자의 모후 신학원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000018&code=201002474&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 순교 복자 성직 수도회 (복자 사랑 수도원 / 복자 사랑 피정의 집)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002475&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 순교 복자 성직 수도회 (새남터 수도원 / 순교 성지 새남터 성당)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201002476&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 순교 복자 성직 수도회 (치유의 성모 수도원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000018&code=201002477&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 순교 복자 성직 수도회 (성 김루시아 수도원 / 나루터 공동체)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000020&code=201002478&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 순교 복자 성직 수도회 (침묵의 요셉 수도원 / 성 안드레아 피정의 집)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000017&code=201002479&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 순교 복자 성직 수도회 (김기량 펠릭스 베드로 수도원 / 면형의 집)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000028&code=201002480&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 순교 복자 성직 수도회 (성 로렌죠 루이즈 양성소(필리핀))",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201002481&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 순교 복자 성직 수도회 (최여겸 마티아 수도원 / 개갑 순교 성지)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000027&code=201007119&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 순교 복자 성직 수도회 (성 김대건 안드레아 수도원(마카오))",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201006999&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 외방 선교회 (요한의 집)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000011&code=201006571&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 외방 선교회 (수련원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000018&code=201006572&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 외방 선교회 (멕시코 지부 캄페체교구/칸쿤-체뚜말 교구)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201006573&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 외방 선교회 (본부)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201005720&code=201002483&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 외방 선교회 (신학원)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=201000018&code=201002484&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 외방 선교회 (대만 지부 신죽/화련교구)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201002485&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 외방 선교회 (모잠비크 지부 리칭가교구)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201002486&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 외방 선교회 (중국 지부 홍콩교구/중국대륙)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201002487&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 외방 선교회 (캄보디아 지부 프놈펜대목구/깜퐁참지목구)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201002488&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 외방 선교회 (파푸아뉴기니 지부 마당/멘디교구)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201002490&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 외방 선교회 (필리핀 공동체/ 바기오교구)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201002491&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국 외방 선교회 (미국 공동체 미국 앵커리지-주노대교구)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201007440&tbxSearch=&gubn2=all&char=all"
+  },
+  {
+    "name": "한국외방선교회 (태국 공동체/ 우돈타니교구)",
+    "detail_url": "https://directory.cbck.or.kr/onlineAddress/Catholic/DetailInfo.aspx?cgubn=g&gubn=6&gyogu=&code=201008774&tbxSearch=&gubn2=all&char=all"
+  }
+]
