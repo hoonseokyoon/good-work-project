@@ -1,3 +1,5 @@
+import type { ParsedUrlQuery } from 'querystring'
+import type { UrlObject } from 'url'
 import Link from 'next/link'
 import SearchFilters from '@/components/filters/search-filters'
 import InstitutionListItem from '@/components/institution-list-item'
@@ -58,25 +60,27 @@ const parsePageParam = (value: string | string[] | undefined): number => {
 const buildPageHref = (
   page: number,
   searchParams: Record<string, string | string[] | undefined>
-): string => {
-  const params = new URLSearchParams()
+): UrlObject => {
+  const query: ParsedUrlQuery = {}
 
   for (const [key, rawValue] of Object.entries(searchParams)) {
     if (key === 'page') continue
 
     if (Array.isArray(rawValue)) {
-      rawValue.forEach((item) => params.append(key, item))
+      query[key] = rawValue
     } else if (typeof rawValue === 'string') {
-      params.set(key, rawValue)
+      query[key] = rawValue
     }
   }
 
   if (page > 1) {
-    params.set('page', page.toString())
+    query.page = page.toString()
   }
 
-  const query = params.toString()
-  return query ? `/map?${query}` : '/map'
+  return {
+    pathname: '/map',
+    query
+  }
 }
 
 type MapPageProps = {
