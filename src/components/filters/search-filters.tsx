@@ -25,6 +25,7 @@ export default function SearchFilters() {
   const activeTags = searchParams.getAll('tag')
 
   const applyFilters = (newParams: URLSearchParams) => {
+    newParams.delete('page')
     router.push(`/map?${newParams.toString()}`)
   }
 

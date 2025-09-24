@@ -1,7 +1,11 @@
+import type { ParsedUrlQuery } from 'querystring'
+import type { UrlObject } from 'url'
+import Link from 'next/link'
 import SearchFilters from '@/components/filters/search-filters'
 import InstitutionListItem from '@/components/institution-list-item'
 import NaverMap from '@/components/naver-map'
 import DebugInfo from '@/components/debug-info'
+import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { sb } from '@/lib/supabase-server'
 
@@ -24,6 +28,8 @@ type Institution = {
   address?: string | null
 }
 
+const ITEMS_PER_PAGE = 12
+
 const fallbackInstitutions: Institution[] = [
   {
     id: 1,
@@ -45,7 +51,43 @@ const fallbackInstitutions: Institution[] = [
   }
 ]
 
-export default async function MapPage() {
+const parsePageParam = (value: string | string[] | undefined): number => {
+  const raw = Array.isArray(value) ? value[0] : value
+  const parsed = Number.parseInt(raw ?? '1', 10)
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : 1
+}
+
+const buildPageHref = (
+  page: number,
+  searchParams: Record<string, string | string[] | undefined>
+): UrlObject => {
+  const query: ParsedUrlQuery = {}
+
+  for (const [key, rawValue] of Object.entries(searchParams)) {
+    if (key === 'page') continue
+
+    if (Array.isArray(rawValue)) {
+      query[key] = rawValue
+    } else if (typeof rawValue === 'string') {
+      query[key] = rawValue
+    }
+  }
+
+  if (page > 1) {
+    query.page = page.toString()
+  }
+
+  return {
+    pathname: '/map',
+    query
+  }
+}
+
+type MapPageProps = {
+  searchParams?: Record<string, string | string[] | undefined>
+}
+
+export default async function MapPage({ searchParams = {} }: MapPageProps) {
   let institutions: Institution[] = fallbackInstitutions
   let dataSource = 'fallback'
 
@@ -135,9 +177,21 @@ export default async function MapPage() {
     }
   }
 
+  const requestedPage = parsePageParam(searchParams.page)
+  const totalItems = institutions.length
+  const totalPages = Math.max(1, Math.ceil(totalItems / ITEMS_PER_PAGE))
+  const currentPage = Math.max(1, Math.min(requestedPage, totalPages))
+  const startIndex = totalItems === 0 ? 0 : (currentPage - 1) * ITEMS_PER_PAGE
+  const endIndex = Math.min(startIndex + ITEMS_PER_PAGE, totalItems)
+  const paginatedInstitutions = institutions.slice(startIndex, endIndex)
+  const showingFrom = totalItems === 0 ? 0 : startIndex + 1
+  const showingTo = endIndex
+
   if (process.env.NODE_ENV === 'development') {
     console.log(`🗺️ Map 페이지 데이터 소스: ${dataSource}`)
     console.log(`🗺️ Map 페이지 기관 수: ${institutions.length}`)
+    console.log(`🗺️ Map 페이지 요청 페이지: ${requestedPage}`)
+    console.log(`🗺️ Map 페이지 표시 범위: ${showingFrom}-${showingTo} / 총 ${totalItems}개`)
   }
 
   const center = institutions[0]?.lat && institutions[0]?.lng ? { lat: institutions[0].lat, lng: institutions[0].lng } : { lat: 37.5665, lng: 126.978 }
@@ -161,9 +215,50 @@ export default async function MapPage() {
         </Card>
       </div>
       <aside className="lg:col-span-4 space-y-3">
-        {institutions.map((institution) => (
-          <InstitutionListItem key={institution.slug} item={institution} />
-        ))}
+        {paginatedInstitutions.length > 0 ? (
+          paginatedInstitutions.map((institution) => (
+            <InstitutionListItem key={institution.slug} item={institution} />
+          ))
+        ) : (
+          <Card>
+            <CardContent className="py-6 text-center text-sm text-muted-foreground">
+              표시할 기관이 없습니다.
+            </CardContent>
+          </Card>
+        )}
+        {totalPages > 1 ? (
+          <nav
+            aria-label="기관 목록 페이지네이션"
+            className="flex items-center justify-between rounded-2xl border bg-card/80 px-4 py-3 text-sm"
+          >
+            <div className="text-muted-foreground">
+              전체 {totalItems}개 중 {showingFrom}-{showingTo} 표시
+            </div>
+            <div className="flex items-center gap-2">
+              {currentPage > 1 ? (
+                <Button variant="outline" size="sm" asChild>
+                  <Link href={buildPageHref(currentPage - 1, searchParams)}>이전</Link>
+                </Button>
+              ) : (
+                <Button variant="outline" size="sm" disabled>
+                  이전
+                </Button>
+              )}
+              <span className="text-xs text-muted-foreground">
+                {currentPage} / {totalPages}
+              </span>
+              {currentPage < totalPages ? (
+                <Button variant="outline" size="sm" asChild>
+                  <Link href={buildPageHref(currentPage + 1, searchParams)}>다음</Link>
+                </Button>
+              ) : (
+                <Button variant="outline" size="sm" disabled>
+                  다음
+                </Button>
+              )}
+            </div>
+          </nav>
+        ) : null}
       </aside>
     </div>
   )
