@@ -1,9 +1,8 @@
-import Link from 'next/link'
 import ProductCard from '@/components/product-card'
+import DonationInstitutionsList from '@/components/donation-institutions-list'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Button } from '@/components/ui/button'
 import { sb } from '@/lib/supabase-server'
+import { DonationInfo } from '@/lib/donation'
 
 export const metadata = {
   title: '기여 — 후원/구매/참여',
@@ -14,10 +13,7 @@ type Institution = {
   id: number
   name: string
   slug: string
-  donation?: {
-    account?: string | null
-    page_url?: string | null
-  } | null
+  donation?: DonationInfo | null
 }
 
 type Product = {
@@ -43,8 +39,19 @@ const fallbackInstitutions: Institution[] = [
     name: '서울 베네딕도회',
     slug: 'seoul-benedictine',
     donation: {
-      account: '국민은행 123456-78-901234',
-      page_url: '#'
+      methods: [
+        {
+          type: 'bank_account',
+          bank: '국민은행',
+          holder: '서울 베네딕도회',
+          number: '123456-78-901234'
+        },
+        {
+          type: 'link',
+          label: '온라인 후원 페이지',
+          url: '#'
+        }
+      ]
     }
   },
   {
@@ -52,8 +59,15 @@ const fallbackInstitutions: Institution[] = [
     name: '춘천 카르멜 수녀원',
     slug: 'chuncheon-carmelite',
     donation: {
-      account: '농협 987-65-432109',
-      page_url: '#'
+      methods: [
+        {
+          type: 'bank_account',
+          bank: '농협',
+          holder: '춘천 카르멜 수녀원',
+          number: '987-65-432109',
+          description: '정기 후원 계좌'
+        }
+      ]
     }
   }
 ]
@@ -121,32 +135,7 @@ export default async function ContributePage() {
       </TabsList>
 
       <TabsContent value="donate">
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {institutions.map((institution) => (
-            <Card key={institution.id} className="h-full">
-              <CardHeader className="pb-3">
-                <CardTitle className="text-base">{institution.name}</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-2 text-sm">
-                {institution.donation?.account ? (
-                  <div>
-                    계좌: <span className="font-semibold">{institution.donation.account}</span>
-                  </div>
-                ) : (
-                  <p className="text-muted-foreground">후원 계좌 정보가 준비 중입니다.</p>
-                )}
-                {institution.donation?.page_url ? (
-                  <a className="underline" href={institution.donation.page_url} target="_blank" rel="noreferrer noopener">
-                    후원 페이지
-                  </a>
-                ) : null}
-                <Button asChild size="sm" variant="secondary">
-                  <Link href={`/institutions/${institution.slug}`}>기관 페이지</Link>
-                </Button>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
+        <DonationInstitutionsList institutions={institutions} />
       </TabsContent>
 
       <TabsContent value="buy">
