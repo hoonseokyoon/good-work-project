@@ -30,6 +30,27 @@ type Institution = {
 
 const ITEMS_PER_PAGE = 12
 
+const normalizeSearchParam = (value: string | string[] | undefined): string => {
+  const raw = Array.isArray(value) ? value[0] : value
+  return typeof raw === 'string' ? raw.trim().toLowerCase() : ''
+}
+
+const matchesQuery = (institution: Institution, query: string): boolean => {
+  if (!query) return true
+
+  const tokens = query
+    .split(/\s+/)
+    .map((token) => token.trim())
+    .filter(Boolean)
+
+  if (!tokens.length) return true
+
+  const searchableValues = [institution.name, institution.address, institution.type, institution.slug]
+    .map((value) => value?.toLowerCase() ?? '')
+
+  return tokens.every((token) => searchableValues.some((value) => value.includes(token)))
+}
+
 const fallbackInstitutions: Institution[] = [
   {
     id: 1,
@@ -90,6 +111,7 @@ type MapPageProps = {
 export default async function MapPage({ searchParams = {} }: MapPageProps) {
   let institutions: Institution[] = fallbackInstitutions
   let dataSource = 'fallback'
+  const searchQuery = normalizeSearchParam(searchParams.q)
 
   // 빌드 시에는 로깅을 최소화
   if (process.env.NODE_ENV === 'development') {
@@ -177,33 +199,46 @@ export default async function MapPage({ searchParams = {} }: MapPageProps) {
     }
   }
 
+  const filteredInstitutions = institutions.filter((institution) => matchesQuery(institution, searchQuery))
+
   const requestedPage = parsePageParam(searchParams.page)
-  const totalItems = institutions.length
+  const totalItems = filteredInstitutions.length
   const totalPages = Math.max(1, Math.ceil(totalItems / ITEMS_PER_PAGE))
   const currentPage = Math.max(1, Math.min(requestedPage, totalPages))
   const startIndex = totalItems === 0 ? 0 : (currentPage - 1) * ITEMS_PER_PAGE
   const endIndex = Math.min(startIndex + ITEMS_PER_PAGE, totalItems)
-  const paginatedInstitutions = institutions.slice(startIndex, endIndex)
+  const paginatedInstitutions = filteredInstitutions.slice(startIndex, endIndex)
   const showingFrom = totalItems === 0 ? 0 : startIndex + 1
   const showingTo = endIndex
 
   if (process.env.NODE_ENV === 'development') {
     console.log(`🗺️ Map 페이지 데이터 소스: ${dataSource}`)
     console.log(`🗺️ Map 페이지 기관 수: ${institutions.length}`)
+    console.log(`🗺️ Map 페이지 검색어: "${searchQuery}"`)
+    console.log(`🗺️ Map 페이지 필터링 후 기관 수: ${filteredInstitutions.length}`)
     console.log(`🗺️ Map 페이지 요청 페이지: ${requestedPage}`)
     console.log(`🗺️ Map 페이지 표시 범위: ${showingFrom}-${showingTo} / 총 ${totalItems}개`)
   }
 
-  const center = institutions[0]?.lat && institutions[0]?.lng ? { lat: institutions[0].lat, lng: institutions[0].lng } : { lat: 37.5665, lng: 126.978 }
+  const markerSources = filteredInstitutions.filter(
+    (item) => typeof item.lat === 'number' && typeof item.lng === 'number'
+  )
 
-  const markers = institutions
-    .filter((item) => typeof item.lat === 'number' && typeof item.lng === 'number')
-    .map((item) => ({ lat: item.lat as number, lng: item.lng as number, title: item.name, slug: item.slug }))
+  const center = markerSources.length
+    ? { lat: markerSources[0].lat as number, lng: markerSources[0].lng as number }
+    : { lat: 37.5665, lng: 126.978 }
+
+  const markers = markerSources.map((item) => ({
+    lat: item.lat as number,
+    lng: item.lng as number,
+    title: item.name,
+    slug: item.slug
+  }))
 
   return (
     <div className="grid gap-6 lg:grid-cols-12">
       <div className="lg:col-span-8 space-y-4">
-        <DebugInfo dataSource={dataSource} itemCount={institutions.length} />
+        <DebugInfo dataSource={dataSource} itemCount={filteredInstitutions.length} />
         <SearchFilters />
         <Card>
           <CardHeader className="py-3">
