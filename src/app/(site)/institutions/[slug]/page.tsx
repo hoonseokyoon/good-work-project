@@ -3,14 +3,11 @@ import Link from 'next/link'
 import InstitutionHero from '@/components/institution-hero'
 import NaverMap from '@/components/naver-map'
 import ProductCard from '@/components/product-card'
+import DonationMethodList from '@/components/donation-method-list'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { sb } from '@/lib/supabase-server'
-
-type Donation = {
-  account?: string | null
-  page_url?: string | null
-}
+import { DonationInfo, normalizeDonationMethods } from '@/lib/donation'
 
 type Institution = {
   id: number
@@ -24,7 +21,7 @@ type Institution = {
   phone?: string | null
   email?: string | null
   website_url?: string | null
-  donation?: Donation | null
+  donation?: DonationInfo | null
 }
 
 type Product = {
@@ -57,8 +54,19 @@ const fallbackInstitution: Institution = {
   email: 'info@seoul-benedictine.kr',
   website_url: 'https://example.com',
   donation: {
-    account: '국민은행 123456-78-901234',
-    page_url: 'https://example.com/donate'
+    methods: [
+      {
+        type: 'bank_account',
+        bank: '국민은행',
+        holder: '서울 베네딕도회',
+        number: '123456-78-901234'
+      },
+      {
+        type: 'link',
+        label: '공식 후원 페이지',
+        url: 'https://example.com/donate'
+      }
+    ]
   }
 }
 
@@ -139,6 +147,7 @@ export default async function InstitutionPage({ params }: { params: { slug: stri
   const { institution, products, events } = await fetchInstitution(params.slug)
 
   const center = institution.lat && institution.lng ? { lat: institution.lat, lng: institution.lng } : null
+  const donationMethods = normalizeDonationMethods(institution.donation)
 
   return (
     <div className="space-y-6">
@@ -163,18 +172,14 @@ export default async function InstitutionPage({ params }: { params: { slug: stri
           <CardHeader>
             <CardTitle>후원</CardTitle>
           </CardHeader>
-          <CardContent className="space-y-2 text-sm">
-            {institution.donation?.account ? (
-              <div>
-                계좌: <span className="font-medium">{institution.donation.account}</span>
-              </div>
+          <CardContent className="space-y-3 text-sm">
+            {donationMethods.length ? (
+              <DonationMethodList methods={donationMethods} />
             ) : (
-              <p className="text-muted-foreground">후원 계좌 정보가 준비 중입니다.</p>
+              <p className="text-muted-foreground">후원 정보가 준비 중입니다.</p>
             )}
-            {institution.donation?.page_url ? (
-              <a className="underline" href={institution.donation.page_url} target="_blank" rel="noreferrer noopener">
-                후원 페이지 바로가기
-              </a>
+            {institution.donation?.note ? (
+              <p className="text-muted-foreground">{institution.donation.note}</p>
             ) : null}
           </CardContent>
         </Card>
