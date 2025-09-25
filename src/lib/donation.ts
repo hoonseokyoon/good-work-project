@@ -47,7 +47,39 @@ function hasContent(method: DonationMethod): boolean {
   return Boolean(method.value)
 }
 
-export function normalizeDonationMethods(donation?: DonationInfo | null): DonationMethod[] {
+type DonationLike = DonationInfo | string | Record<string, unknown> | null | undefined
+
+function coerceDonation(donation: DonationLike): DonationInfo | null {
+  if (!donation) return null
+
+  if (typeof donation === 'string') {
+    try {
+      const parsed = JSON.parse(donation)
+      if (parsed && typeof parsed === 'object') {
+        return parsed as DonationInfo
+      }
+      return null
+    } catch (error) {
+      console.error('Failed to parse donation string', error)
+      return null
+    }
+  }
+
+  if (typeof donation === 'object') {
+    return donation as DonationInfo
+  }
+
+  return null
+}
+
+function sanitizeString(value?: string | null): string | undefined {
+  if (typeof value !== 'string') return undefined
+  const trimmed = value.trim()
+  return trimmed.length ? trimmed : undefined
+}
+
+export function normalizeDonationMethods(donationLike?: DonationLike): DonationMethod[] {
+  const donation = coerceDonation(donationLike)
   if (!donation) return []
 
   const normalized: DonationMethod[] = []
@@ -58,45 +90,54 @@ export function normalizeDonationMethods(donation?: DonationInfo | null): Donati
       if (method.type === 'bank_account') {
         const bankMethod: BankAccountDonationMethod = {
           type: 'bank_account',
-          bank: method.bank ?? null,
-          holder: method.holder ?? null,
-          number: method.number ?? null,
-          description: method.description ?? null
+          bank: sanitizeString(method.bank ?? undefined) ?? null,
+          holder: sanitizeString(method.holder ?? undefined) ?? null,
+          number: sanitizeString(method.number ?? undefined) ?? null,
+          description: sanitizeString(method.description ?? undefined) ?? null
         }
         if (hasContent(bankMethod)) normalized.push(bankMethod)
-      } else if (method.type === 'link' && method.url) {
+      } else if (method.type === 'link') {
+        const url = sanitizeString(method.url ?? undefined)
+        if (!url) continue
         normalized.push({
           type: 'link',
-          url: method.url,
-          label: method.label ?? null
+          url,
+          label: sanitizeString(method.label ?? undefined) ?? null
         })
-      } else if (method.type === 'custom' && method.value) {
+      } else if (method.type === 'custom') {
+        const value = sanitizeString(method.value ?? undefined)
+        if (!value) continue
         normalized.push({
           type: 'custom',
-          value: method.value,
-          label: method.label ?? null
+          value,
+          label: sanitizeString(method.label ?? undefined) ?? null
         })
       }
     }
   }
 
-  if (donation.account) {
+  const account = sanitizeString(donation.account ?? undefined)
+  if (account) {
     normalized.push({
       type: 'bank_account',
-      number: donation.account
+      number: account
     })
   }
 
-  if (donation.page_url) {
+  const pageUrl =
+    sanitizeString((donation as DonationInfo & { pageUrl?: string }).page_url ?? undefined) ??
+    sanitizeString((donation as DonationInfo & { pageUrl?: string }).pageUrl ?? undefined)
+
+  if (pageUrl) {
     const alreadyHasLink = normalized.some(
-      (method) => method.type === 'link' && method.url === donation.page_url
+      (method) => method.type === 'link' && method.url === pageUrl
     )
 
     if (!alreadyHasLink) {
       normalized.push({
         type: 'link',
-        url: donation.page_url,
-        label: donation.note ? undefined : '후원 페이지'
+        url: pageUrl,
+        label: sanitizeString(donation.note ?? undefined) ? undefined : '후원 페이지'
       })
     }
   }
