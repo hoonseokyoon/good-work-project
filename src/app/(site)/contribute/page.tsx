@@ -9,6 +9,8 @@ export const metadata = {
   description: '후원, 제품 구매, 봉사 참여 등 다양한 방식으로 공동체와 연결됩니다.'
 }
 
+export const revalidate = 0
+
 type Institution = {
   id: number
   name: string
