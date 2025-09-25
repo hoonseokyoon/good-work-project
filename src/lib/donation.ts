@@ -27,6 +27,80 @@ export type DonationInfo = {
   note?: string | null
 }
 
+type RawDonation =
+  | DonationInfo
+  | string
+  | null
+  | undefined
+  | Record<string, unknown>
+
+function parseDonation(rawDonation: RawDonation): DonationInfo | null {
+  if (!rawDonation) return null
+
+  if (typeof rawDonation === 'string') {
+    try {
+      return parseDonation(JSON.parse(rawDonation))
+    } catch {
+      return null
+    }
+  }
+
+  if (typeof rawDonation !== 'object') return null
+
+  const donationObject = rawDonation as Record<string, unknown>
+
+  const methods = Array.isArray(donationObject.methods) ? donationObject.methods : undefined
+
+  const account =
+    typeof donationObject.account === 'string'
+      ? donationObject.account
+      : typeof donationObject.number === 'string'
+        ? donationObject.number
+        : null
+
+  const pageUrl = (() => {
+    if (typeof donationObject.page_url === 'string') return donationObject.page_url
+    if (typeof donationObject.pageUrl === 'string') return donationObject.pageUrl
+    if (typeof donationObject.pageURL === 'string') return donationObject.pageURL
+    if (typeof donationObject.url === 'string') return donationObject.url
+    return null
+  })()
+
+  const note =
+    typeof donationObject.note === 'string'
+      ? donationObject.note
+      : typeof donationObject.description === 'string'
+        ? donationObject.description
+        : null
+
+  const hasLegacyBankInfo =
+    typeof donationObject.bank === 'string' ||
+    typeof donationObject.holder === 'string' ||
+    typeof donationObject.account === 'string' ||
+    typeof donationObject.number === 'string'
+
+  const normalizedMethods = methods as DonationMethod[] | undefined
+
+  return {
+    methods:
+      normalizedMethods ??
+      (hasLegacyBankInfo
+        ? [
+            {
+              type: 'bank_account',
+              bank: typeof donationObject.bank === 'string' ? donationObject.bank : null,
+              holder: typeof donationObject.holder === 'string' ? donationObject.holder : null,
+              number: account,
+              description: note
+            } satisfies BankAccountDonationMethod
+          ]
+        : undefined),
+    account,
+    page_url: pageUrl,
+    note
+  }
+}
+
 function isBankAccountMethod(method: DonationMethod): method is BankAccountDonationMethod {
   return method.type === 'bank_account'
 }
@@ -47,7 +121,8 @@ function hasContent(method: DonationMethod): boolean {
   return Boolean(method.value)
 }
 
-export function normalizeDonationMethods(donation?: DonationInfo | null): DonationMethod[] {
+export function normalizeDonationMethods(rawDonation?: RawDonation): DonationMethod[] {
+  const donation = parseDonation(rawDonation)
   if (!donation) return []
 
   const normalized: DonationMethod[] = []
@@ -104,6 +179,6 @@ export function normalizeDonationMethods(donation?: DonationInfo | null): Donati
   return normalized.filter(hasContent)
 }
 
-export function hasDonationDetails(donation?: DonationInfo | null): boolean {
+export function hasDonationDetails(donation?: RawDonation): boolean {
   return normalizeDonationMethods(donation).length > 0
 }
